@@ -1,4 +1,4 @@
-const whatsappNumber = '5511999999999'; // Troque pelo número real antes de divulgar.
+const whatsappNumber = '5511999999999'; // Número fictício, usado apenas nesta demonstração.
 const menuButton = document.querySelector('.menu-button');
 const nav = document.querySelector('.nav');
 
@@ -19,4 +19,11 @@ document.querySelectorAll('.service-link').forEach((link) => {
   link.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
   link.target = '_blank';
   link.rel = 'noreferrer';
+});
+
+document.querySelectorAll('a[href*="5511999999999"]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    alert('Esta é uma demonstração fictícia. Configure o WhatsApp real antes de divulgar para clientes.');
+  });
 });
