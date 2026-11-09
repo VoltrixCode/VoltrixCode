@@ -14,3 +14,10 @@ navigation.querySelectorAll('a').forEach((link) => {
     menuButton.setAttribute('aria-label', 'Abrir menu');
   });
 });
+
+document.querySelectorAll('a[href*="5511999999999"]').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    alert('Esta é uma demonstração fictícia. Configure o WhatsApp real antes de divulgar para clientes.');
+  });
+});
