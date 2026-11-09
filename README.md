@@ -1,49 +1,45 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/354508438?v=4" alt="Logo da VOLTRIX CODE" width="180">
+  <img src="https://avatars.githubusercontent.com/u/354508438?v=4" alt="VOLTRIX CODE" width="160">
   <h1>VOLTRIX CODE</h1>
-  <p><strong>Sites profissionais e soluções digitais para pequenos negócios</strong></p>
+  <p><strong>Presença digital profissional para pequenos negócios.</strong></p>
   <p>Landing pages · Sites institucionais · Manutenção web</p>
 </div>
 
 ---
 
-## Sobre a VOLTRIX CODE
+## Sobre
 
-A VOLTRIX CODE é uma marca independente em fase inicial, criada por Thiago Paiva. O foco é ajudar pequenos negócios a apresentar seus serviços com clareza e facilitar o contato com seus clientes.
+A VOLTRIX CODE é uma marca independente em fase inicial, criada por Thiago Paiva. Desenvolvemos páginas simples, claras e pensadas para ajudar pequenos negócios a apresentar seus serviços e facilitar o contato com clientes.
 
-Desenvolvemos projetos em HTML, CSS e JavaScript, com atenção ao conteúdo, à experiência em celulares e a caminhos simples de contato.
+Trabalhamos com HTML, CSS e JavaScript, com foco em experiência mobile e escopo adequado à necessidade de cada projeto.
 
 ## Serviços
 
-- Landing pages para apresentar serviços e ofertas.
-- Sites institucionais com informações, serviços e formas de contato.
+- Landing pages para divulgar serviços e ofertas.
+- Sites institucionais com informações, localização e contato.
 - Manutenção e melhorias em páginas existentes.
-- Pequenas soluções digitais alinhadas à necessidade de cada negócio.
+- Pequenas soluções digitais personalizadas.
 
-## Projetos de portfólio
+## Projetos demonstrativos
 
-Os exemplos abaixo são projetos demonstrativos. Os estabelecimentos e dados comerciais são fictícios e não representam clientes atendidos.
+Os exemplos abaixo são estudos de portfólio. Marcas, estabelecimentos, endereços, horários e contatos são fictícios; não representam clientes atendidos.
 
 ### Barbearia Prime
+Página conceitual para barbearia, com apresentação de serviços e chamada para contato.
 
-Página conceitual para uma barbearia, com apresentação, serviços e contato pelo WhatsApp.
+[Ver demonstração](https://voltrixcode.github.io/VoltrixCode/) · [Ver arquivos](https://github.com/VoltrixCode/VoltrixCode/tree/main)
 
-[Ver os arquivos do projeto](https://github.com/VoltrixCode/VoltrixCode/blob/main/index.html)
+### Studio Som & Film
+Página conceitual para instalação de som automotivo e aplicação de insulfilm. Inclui apresentação dos serviços, etapas de atendimento e solicitação de orçamento.
 
-### Sulfilm Auto Care
+[Ver demonstração](https://voltrixcode.github.io/VoltrixCode/som-automotivo/) · [Ver arquivos](https://github.com/VoltrixCode/VoltrixCode/tree/main/som-automotivo)
 
-Demonstração de página para lavagem e cuidados automotivos, com opções de lavagem, insulfilm, higienização e polimento.
-
-[Ver os arquivos do projeto](https://github.com/VoltrixCode/VoltrixCode/blob/main/lava-rapido/index.html)
-
-> Os dados de telefone, endereço, horários e preços dos exemplos são fictícios. Confirme informações reais com o estabelecimento antes de qualquer divulgação.
+> Os botões de contato da demonstração são ilustrativos. Informações reais só devem ser incluídas com aprovação do estabelecimento.
 
 ## Tecnologias
 
-HTML · CSS · JavaScript
+HTML · CSS · JavaScript · SVG
 
 ---
 
-<div align="center">
-  <sub>VOLTRIX CODE · Tecnologia simples, presença digital profissional.</sub>
-</div>
+<div align="center"><sub>VOLTRIX CODE · Tecnologia simples, presença digital profissional.</sub></div>
