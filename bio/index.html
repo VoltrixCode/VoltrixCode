@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050914">
+  <meta name="description" content="A VOLTRIX CODE cria sites e páginas para negócios locais. Veja projetos demonstrativos ou converse sobre o seu.">
+  <meta property="og:title" content="VOLTRIX CODE | Presença digital para negócios locais">
+  <meta property="og:description" content="Sites e páginas para apresentar seu negócio e facilitar o contato com seus clientes.">
+  <meta property="og:type" content="website">
+  <title>VOLTRIX CODE | Sites para negócios locais</title>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/354508438?v=4">
+  <style>
+:root{color-scheme:dark;--bg:#050914;--surface:#0b1220;--surface-2:#0e1a2c;--text:#f4f7ff;--muted:#9baac0;--blue:#087aff;--cyan:#18c4ff;--line:#1b2a3e}
+*{box-sizing:border-box}
+html{min-height:100%;background:var(--bg)}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#0b2140 0,transparent 40rem),var(--bg);color:var(--text);font-family:Inter,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.page-shell{width:min(calc(100% - 40px),620px);margin:0 auto;padding:34px 0 22px}
+.brand-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:47px}
+.brand{display:inline-flex;width:120px;height:68px;overflow:hidden;border:1px solid #12233c;border-radius:13px;background:#050914}
+.brand img{width:100%;height:100%;padding:4px;object-fit:contain}
+.location{display:flex;align-items:center;gap:9px;color:#b2c0d2;font-size:11px;font-weight:700;letter-spacing:.14em}
+.status-dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 13px #18c4ff}
+.intro{padding:3px 0 42px}
+.eyebrow{margin:0 0 13px;color:var(--cyan);font-size:10px;font-weight:800;letter-spacing:.18em;line-height:1.5}
+h1{max-width:570px;margin:0;font-size:clamp(39px,9vw,65px);font-weight:750;letter-spacing:-.055em;line-height:.99}
+h1 span{display:block;color:var(--cyan)}
+.intro-copy{max-width:470px;margin:20px 0 25px;color:var(--muted);font-size:15px;line-height:1.65}
+.primary-link{display:flex;align-items:center;gap:14px;min-height:76px;padding:14px 17px;border:1px solid #117cc2;border-radius:14px;background:linear-gradient(100deg,#0c2340,#0a1728);box-shadow:0 10px 34px #0079ff19;transition:transform .18s,border-color .18s}
+.primary-link:hover,.project-card:hover{transform:translateY(-2px);border-color:#24bfff}
+.link-icon{display:grid;flex:0 0 42px;height:42px;place-items:center;border-radius:12px;background:linear-gradient(140deg,#18c4ff,#0868f5);color:#03101f;font-size:21px;font-weight:800}
+.primary-link strong,.primary-link small{display:block}
+.primary-link strong{font-size:14px}
+.primary-link small{margin-top:4px;color:#a9b8cb;font-size:11px}
+.arrow{margin-left:auto;color:var(--cyan);font-size:20px}
+.work{padding-top:3px}
+.section-heading{display:flex;align-items:end;justify-content:space-between;margin-bottom:15px}
+.section-heading .eyebrow{margin-bottom:5px}
+h2{margin:0;font-size:21px;letter-spacing:-.025em}
+.count{padding:7px 9px;border:1px solid #1e3048;border-radius:99px;color:#a9b8cb;font-size:9px;font-weight:700;letter-spacing:.11em}
+.project-card{display:grid;grid-template-columns:154px 1fr;min-height:148px;margin-top:12px;overflow:hidden;border:1px solid var(--line);border-radius:15px;background:linear-gradient(110deg,#0c1524,#09111e);transition:transform .18s,border-color .18s}
+.project-card:focus-visible,.primary-link:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+.project-art{position:relative;display:grid;min-height:148px;place-items:center;overflow:hidden;background:radial-gradient(circle at 52% 50%,#103b66,#071324 66%)}
+.sound-art:before,.barber-art:before{position:absolute;inset:0;background-image:linear-gradient(#16345133 1px,transparent 1px),linear-gradient(90deg,#16345133 1px,transparent 1px);background-size:21px 21px;content:"";mask-image:linear-gradient(90deg,transparent,#000)}
+.sound-ring{position:absolute;border:1px solid #1aaefa66;border-radius:50%;box-shadow:0 0 16px #007aff26}
+.ring-one{width:82px;height:82px}.ring-two{width:55px;height:55px;border-color:#46d6ff}
+.sound-core{width:22px;height:22px;border:4px solid #071324;border-radius:50%;background:var(--cyan);box-shadow:0 0 18px #18c4ff}
+.art-tag{position:absolute;bottom:11px;left:12px;color:#c2d5e9;font-size:8px;font-weight:800;letter-spacing:.16em}
+.barber-art{background:radial-gradient(circle at 50% 48%,#242e3a,#0c121d 70%)}
+.barber-lines{position:absolute;inset:25px 54px;border:1px solid #9baac033;border-radius:50% 50% 6px 6px}
+.barber-mark{position:relative;color:#f3f4f6;font-family:Georgia,serif;font-size:42px;font-weight:700}
+.barber-mark span{color:var(--cyan)}
+.project-copy{display:flex;flex-direction:column;align-items:flex-start;padding:16px 17px}
+.project-copy small{color:var(--cyan);font-size:8px;font-weight:800;letter-spacing:.14em}
+.project-copy strong{margin-top:8px;font-size:14px;line-height:1.25}
+.project-copy>span:not(.project-action){margin-top:5px;color:var(--muted);font-size:10px;line-height:1.45}
+.project-action{display:flex;align-items:center;gap:7px;margin-top:auto;padding-top:9px;color:#eaf7ff;font-size:10px;font-weight:700}
+.project-action b{color:var(--cyan);font-size:14px}
+.demo-note{display:flex;gap:8px;margin:14px 2px 0;color:#8595aa;font-size:10px;line-height:1.5}
+.demo-note span{color:var(--cyan)}
+.footer{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:34px;padding-top:17px;border-top:1px solid #18253a;color:#7e8da2;font-size:9px}
+.footer>span:first-child{color:#f3f7ff;font-size:10px;font-weight:800;letter-spacing:.13em}
+.footer>span:first-child b{color:var(--cyan)}
+.footer a{color:#aac0d7}
+@media(max-width:480px){
+  .page-shell{width:min(calc(100% - 32px),620px);padding-top:20px}
+  .brand-row{margin-bottom:32px}
+  .brand{width:108px;height:62px}
+  .intro{padding-bottom:34px}
+  h1{font-size:clamp(39px,11vw,54px);line-height:1.02}
+  .intro-copy{font-size:15px;line-height:1.65}
+  .primary-link{min-height:78px;padding:14px}
+  .primary-link strong{font-size:14px}
+  .primary-link small{font-size:12px}
+  .section-heading{align-items:center}
+  h2{font-size:20px}
+  .project-card{grid-template-columns:1fr;min-height:0}
+  .project-art{min-height:112px}
+  .project-copy{min-height:151px;padding:15px 16px}
+  .project-copy small{font-size:9px}
+  .project-copy strong{margin-top:7px;font-size:16px}
+  .project-copy>span:not(.project-action){font-size:12px;line-height:1.5}
+  .project-action{padding-top:12px;font-size:12px}
+  .demo-note{font-size:11px;line-height:1.55}
+  .footer{flex-wrap:wrap;row-gap:10px;margin-top:28px}
+  .footer>span:nth-child(2){order:3;width:100%;font-size:10px}
+}
+@media(max-width:360px){
+  .page-shell{width:calc(100% - 28px)}
+  h1{font-size:38px}
+  .location{font-size:10px}
+  .count{font-size:8px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="brand-row">
+      <a class="brand" href="#inicio" aria-label="VOLTRIX CODE, início">
+        <img src="https://avatars.githubusercontent.com/u/354508438?v=4" alt="Logo VOLTRIX CODE">
+      </a>
+      <span class="location"><span class="status-dot"></span> JAÚ · SP</span>
+    </header>
+
+    <section class="intro" id="inicio" aria-labelledby="main-title">
+      <p class="eyebrow">PRESENÇA DIGITAL PARA NEGÓCIOS LOCAIS</p>
+      <h1 id="main-title">Seu negócio merece ser <span>bem apresentado.</span></h1>
+      <p class="intro-copy">Criamos sites e páginas para mostrar seus serviços com clareza e facilitar o contato com seus clientes.</p>
+      <a class="primary-link" href="https://ig.me/m/voltrixcode">
+        <span class="link-icon" aria-hidden="true">↗</span>
+        <span><strong>Conversar sobre um projeto</strong><small>Peça um orçamento pelo Instagram</small></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+    </section>
+
+    <section class="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PORTFÓLIO</p>
+          <h2 id="work-title">Projetos demonstrativos</h2>
+        </div>
+        <span class="count">02 EXEMPLOS</span>
+      </div>
+
+      <a class="project-card sound-card" href="../som-automotivo/">
+        <span class="project-art sound-art" aria-hidden="true"><span class="sound-ring ring-one"></span><span class="sound-ring ring-two"></span><span class="sound-core"></span><span class="art-tag">SOM + FILM</span></span>
+        <span class="project-copy"><small>PROJETO CONCEITUAL · 01</small><strong>Som automotivo & insulfilm</strong><span>Uma página para apresentar serviços e receber pedidos de orçamento.</span><span class="project-action">Ver demonstração <b>↗</b></span></span>
+      </a>
+
+      <a class="project-card barber-card" href="../">
+        <span class="project-art barber-art" aria-hidden="true"><span class="barber-lines"></span><span class="barber-mark">B<span>P</span></span><span class="art-tag">BARBEARIA</span></span>
+        <span class="project-copy"><small>PROJETO CONCEITUAL · 02</small><strong>Barbearia Prime</strong><span>Uma página demonstrativa para serviços, informações e contato.</span><span class="project-action">Ver demonstração <b>↗</b></span></span>
+      </a>
+
+      <p class="demo-note"><span aria-hidden="true">ⓘ</span> Os projetos são demonstrações de portfólio. As marcas e informações comerciais são fictícias.</p>
+    </section>
+
+    <footer class="footer">
+      <span>VOLTRIX <b>CODE</b></span>
+      <span>Sites e páginas · Jaú e região</span>
+      <a href="https://www.instagram.com/voltrixcode/" target="_blank" rel="noopener noreferrer">@voltrixcode ↗</a>
+    </footer>
+  </main>
+</body>
+</html>
