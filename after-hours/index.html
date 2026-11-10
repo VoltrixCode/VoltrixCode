@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b10">
+  <meta name="description" content="Demonstração de uma página mobile para divulgar uma noite de after-hours e apresentar o fluxo de ingresso e portaria.">
+  <title>SUBSOLO — Noite de After</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="demo-bar"><span class="demo-dot"></span> PROJETO DEMONSTRATIVO <span class="demo-separator">·</span> EVENTO E INFORMAÇÕES FICTÍCIOS</div>
+
+  <header class="topbar wrap">
+    <a class="brand" href="#top" aria-label="Subsolo Bar, início"><span class="brand-mark">S</span><span>SUBSOLO<small>BAR · AFTER HOURS</small></span></a>
+    <button class="staff-link" id="open-door" type="button">ACESSO DA EQUIPE <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> SÁBADO · A PARTIR DAS 22H</p>
+        <h1>O bar fecha.<br>A noite <em>continua.</em></h1>
+        <p class="intro">Boa música, drinks e conversa sem pressa. Com entrada antecipada e conferência simples na portaria, o after começa no clima certo.</p>
+        <a class="button button-primary" href="#ingressos">VER ENTRADA ANTECIPADA <span>↗</span></a>
+        <div class="hero-note"><span class="pulse"></span> Entrada organizada <b>· confira a proposta</b></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração abstrata de luzes de uma pista noturna" role="img">
+        <div class="art-grid"></div><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="beam"></div>
+        <div class="pendant pendant-one"></div><div class="pendant pendant-two"></div><div class="bar-shelf"><i></i><i></i><i></i><i></i><i></i></div><div class="bar-counter"></div><div class="bar-stool stool-one"></div><div class="bar-stool stool-two"></div><div class="bar-glass">✦</div>
+        <div class="art-label"><span>SUBSOLO BAR APRESENTA</span><strong>AFTER<br>SEM PRESSA.</strong><small>JAÚ · SP</small></div>
+        <div class="art-stamp">S<br><small>BAR</small></div>
+      </div>
+    </section>
+
+    <section class="event-info wrap" aria-label="Informações do evento">
+      <div><span>QUANDO</span><strong>14 NOV · SÁBADO</strong></div>
+      <div><span>AFTER A PARTIR</span><strong>22:00</strong></div>
+      <div><span>ONDE</span><strong>SUBSOLO BAR · JAÚ</strong></div>
+      <div><span>CLASSIFICAÇÃO</span><strong>18 ANOS</strong></div>
+    </section>
+
+    <section class="tickets wrap" id="ingressos">
+      <div class="section-heading"><div><p class="eyebrow">ESCOLHA SEU LOTE</p><h2>Seu nome na lista.</h2></div><span class="secure-note">◎ compra demonstrativa</span></div>
+      <article class="ticket-card">
+        <div class="ticket-main"><div class="ticket-tag">LOTE 01 <span>● ABERTO</span></div><h3>Entrada para o after</h3><p>1 entrada · edição especial no bar</p><div class="ticket-price">R$ <strong>25</strong><small>,00</small></div></div>
+        <div class="ticket-side"><span>Para essa edição</span><strong>Garanta sua entrada antecipada</strong><button class="button button-primary buy-button" type="button">RESERVAR MINHA ENTRADA <span>→</span></button></div>
+      </article>
+      <p class="ticket-footnote">Valores, edição e estabelecimento são fictícios. Esta demonstração não processa pagamentos nem reservas reais.</p>
+    </section>
+
+    <section class="details wrap">
+      <div><p class="eyebrow">DEPOIS DO ÚLTIMO BRINDE</p><h2>O balcão aceso.<br>A noite por sua conta.</h2></div>
+      <div class="detail-list"><p><b>01</b><span>Drinks e bons encontros<br><small>Um brinde para esticar a noite</small></span></p><p><b>02</b><span>Som no clima certo<br><small>Seleção especial para o after</small></span></p><p><b>03</b><span>Entrada mais organizada<br><small>Ingresso antecipado e conferência na portaria</small></span></p></div>
+    </section>
+
+    <section class="last-call"><div class="wrap last-inner"><div><p class="eyebrow">NOS VEMOS NA PISTA?</p><h2>Garanta seu lugar.</h2></div><a class="button button-light" href="#ingressos">VER INGRESSOS <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="wrap footer"><a class="brand" href="#top"><span class="brand-mark">S</span><span>SUBSOLO<small>BAR · AFTER HOURS</small></span></a><p>PROJETO CONCEITUAL · VOLTRIX CODE</p><a href="https://instagram.com/voltrixcode" target="_blank" rel="noreferrer">FEITO POR VOLTRIX CODE ↗</a></footer>
+
+  <dialog id="checkout-dialog" class="dialog">
+    <button class="close-dialog" data-close="checkout-dialog" aria-label="Fechar">×</button>
+    <div class="modal-kicker">SUBSOLO BAR · LOTE 01</div><h2>Vem pro after.</h2><p class="modal-intro">Preencha os dados para ver como poderia ser a confirmação da sua entrada.</p>
+    <form id="checkout-form"><label for="customer-name">Seu nome</label><input id="customer-name" name="name" placeholder="Como devemos te chamar?" required maxlength="70"><label for="customer-phone">WhatsApp</label><input id="customer-phone" name="phone" type="tel" inputmode="tel" placeholder="(14) 99999-9999" required maxlength="20"><button class="button button-primary modal-submit" type="submit">SIMULAR PAGAMENTO PIX <span>→</span></button></form>
+    <p class="modal-disclaimer">Demonstração: nenhum Pix será gerado ou cobrado.</p>
+  </dialog>
+
+  <dialog id="ticket-dialog" class="dialog ticket-dialog">
+    <button class="close-dialog" data-close="ticket-dialog" aria-label="Fechar">×</button>
+    <div class="success-mark">✓</div><div class="modal-kicker">PEDIDO SIMULADO</div><h2>Até mais tarde, <span id="ticket-name">amigo</span>.</h2><p class="modal-intro">Este é um exemplo visual de confirmação. Não é um ingresso válido.</p>
+    <div class="mock-ticket"><div class="mock-qr" aria-label="QR code ilustrativo, não escaneável"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div><span>SUBSOLO BAR · AFTER 001</span><strong>R$ 25,00</strong><small>14 NOV · A PARTIR DAS 22H</small><code>DEMO-4821</code></div></div>
+    <button class="button button-outline" data-close="ticket-dialog">VOLTAR AO SITE</button>
+  </dialog>
+
+  <dialog id="door-dialog" class="dialog door-dialog">
+    <button class="close-dialog" data-close="door-dialog" aria-label="Fechar">×</button>
+    <div class="modal-kicker">SUBSOLO · ACESSO DA EQUIPE</div><h2>Validação de ingresso</h2><p class="modal-intro">Simulação de uma conferência na entrada do evento.</p>
+    <div class="scan-frame"><span class="scan-corner tl"></span><span class="scan-corner tr"></span><div class="scan-icon">▦</div><span class="scan-corner bl"></span><span class="scan-corner br"></span></div>
+    <label for="ticket-code">Digite o código demonstrativo</label><div class="code-row"><input id="ticket-code" value="DEMO-4821" maxlength="20"><button id="validate-ticket" class="button button-primary" type="button">CONFERIR</button></div>
+    <div id="validation-result" class="validation-result" aria-live="polite">Código de exemplo: DEMO-4821</div><p class="modal-disclaimer">Não há leitura de QR nem controle real de acesso nesta demonstração.</p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
