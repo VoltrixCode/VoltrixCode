@@ -24,7 +24,7 @@
       <div class="hero-copy">
         <p class="eyebrow"><span></span> SÁBADO · A PARTIR DAS 22H</p>
         <h1>O bar fecha.<br>A noite <em>continua.</em></h1>
-        <p class="intro">Boa música, drinks e conversa sem pressa. Com entrada antecipada e conferência simples na portaria, o after começa no clima certo.</p>
+        <p class="intro">Boa música, drinks e conversa sem pressa. Veja as informações da edição e peça sua entrada pelo WhatsApp do bar.</p>
         <a class="button button-primary" href="#ingressos">VER ENTRADA ANTECIPADA <span>↗</span></a>
         <div class="hero-note"><span class="pulse"></span> Entrada organizada <b>· confira a proposta</b></div>
       </div>
@@ -46,15 +46,25 @@
     <section class="tickets wrap" id="ingressos">
       <div class="section-heading"><div><p class="eyebrow">ESCOLHA SEU LOTE</p><h2>Seu nome na lista.</h2></div><span class="secure-note">◎ compra demonstrativa</span></div>
       <article class="ticket-card">
-        <div class="ticket-main"><div class="ticket-tag">LOTE 01 <span>● ABERTO</span></div><h3>Entrada para o after</h3><p>1 entrada · edição especial no bar</p><div class="ticket-price">R$ <strong>25</strong><small>,00</small></div></div>
-        <div class="ticket-side"><span>Para essa edição</span><strong>Garanta sua entrada antecipada</strong><button class="button button-primary buy-button" type="button">RESERVAR MINHA ENTRADA <span>→</span></button></div>
+        <div class="ticket-main"><div class="ticket-tag">LOTE 01 <span>● ABERTO</span></div><h3>Entrada para o after</h3><p>Solicite pelo WhatsApp · edição especial no bar</p><div class="ticket-price">R$ <strong>25</strong><small>,00</small></div></div>
+        <div class="ticket-side"><span>Compra pelo canal que o público já usa</span><strong>Consulte e peça sua entrada pelo WhatsApp</strong><button class="button button-primary buy-button" type="button">SIMULAR PEDIDO NO WHATSAPP <span>→</span></button></div>
       </article>
       <p class="ticket-footnote">Valores, edição e estabelecimento são fictícios. Esta demonstração não processa pagamentos nem reservas reais.</p>
     </section>
 
+    <section class="staff-flow wrap" id="fluxo-equipe">
+      <div class="staff-heading"><p class="eyebrow">UMA PROPOSTA PARA A ROTINA DO BAR</p><h2>O pedido continua no WhatsApp.</h2><p>O site organiza as informações. A conversa e a confirmação da venda continuam com a equipe, pelo canal que os clientes já conhecem.</p></div>
+      <div class="flow-steps">
+        <article class="flow-step"><span>01 · CLIENTE</span><h3>Encontra as informações</h3><p>Data, horário, valor e detalhes da edição ficam em um link fácil de compartilhar.</p></article>
+        <article class="flow-step"><span>02 · WHATSAPP</span><h3>Faz o pedido como hoje</h3><p>O botão prepara uma mensagem com o nome e a quantidade de entradas para iniciar a conversa.</p></article>
+        <article class="flow-step"><span>03 · EQUIPE</span><h3>Confere a entrada</h3><p>Depois de confirmar a venda, a equipe pode consultar uma lista única e marcar cada entrada na portaria.</p></article>
+      </div>
+      <p class="flow-note">A lista de vendas e a conferência conectada ainda não existem nesta demo. Elas dependeriam de combinar um fluxo simples com a equipe.</p>
+    </section>
+
     <section class="details wrap">
       <div><p class="eyebrow">DEPOIS DO ÚLTIMO BRINDE</p><h2>O balcão aceso.<br>A noite por sua conta.</h2></div>
-      <div class="detail-list"><p><b>01</b><span>Drinks e bons encontros<br><small>Um brinde para esticar a noite</small></span></p><p><b>02</b><span>Som no clima certo<br><small>Seleção especial para o after</small></span></p><p><b>03</b><span>Entrada mais organizada<br><small>Ingresso antecipado e conferência na portaria</small></span></p></div>
+      <div class="detail-list"><p><b>01</b><span>Drinks e bons encontros<br><small>Um brinde para esticar a noite</small></span></p><p><b>02</b><span>Som no clima certo<br><small>Seleção especial para o after</small></span></p><p><b>03</b><span>Informação num só lugar<br><small>Menos dúvidas repetidas antes de pedir</small></span></p></div>
     </section>
 
     <section class="last-call"><div class="wrap last-inner"><div><p class="eyebrow">NOS VEMOS NA PISTA?</p><h2>Garanta seu lugar.</h2></div><a class="button button-light" href="#ingressos">VER INGRESSOS <span>↗</span></a></div></section>
@@ -64,24 +74,23 @@
 
   <dialog id="checkout-dialog" class="dialog">
     <button class="close-dialog" data-close="checkout-dialog" aria-label="Fechar">×</button>
-    <div class="modal-kicker">SUBSOLO BAR · LOTE 01</div><h2>Vem pro after.</h2><p class="modal-intro">Preencha os dados para ver como poderia ser a confirmação da sua entrada.</p>
-    <form id="checkout-form"><label for="customer-name">Seu nome</label><input id="customer-name" name="name" placeholder="Como devemos te chamar?" required maxlength="70"><label for="customer-phone">WhatsApp</label><input id="customer-phone" name="phone" type="tel" inputmode="tel" placeholder="(14) 99999-9999" required maxlength="20"><button class="button button-primary modal-submit" type="submit">SIMULAR PAGAMENTO PIX <span>→</span></button></form>
-    <p class="modal-disclaimer">Demonstração: nenhum Pix será gerado ou cobrado.</p>
+    <div class="modal-kicker">SUBSOLO BAR · LOTE 01</div><h2>Peça pelo WhatsApp.</h2><p class="modal-intro">Veja um exemplo da mensagem que o botão poderia preparar para iniciar o pedido com a equipe.</p>
+    <form id="checkout-form"><label for="customer-name">Seu nome</label><input id="customer-name" name="name" placeholder="Como devemos te chamar?" required maxlength="70"><label for="ticket-quantity">Quantidade de entradas</label><select id="ticket-quantity" name="quantity"><option value="1">1 entrada</option><option value="2">2 entradas</option><option value="3">3 entradas</option><option value="4">4 entradas</option></select><button class="button button-primary modal-submit" type="submit">VER MENSAGEM DE PEDIDO <span>→</span></button></form>
+    <p class="modal-disclaimer">Nada é enviado nesta demonstração. O número do WhatsApp do estabelecimento seria configurado com autorização do bar.</p>
   </dialog>
 
   <dialog id="ticket-dialog" class="dialog ticket-dialog">
     <button class="close-dialog" data-close="ticket-dialog" aria-label="Fechar">×</button>
-    <div class="success-mark">✓</div><div class="modal-kicker">PEDIDO SIMULADO</div><h2>Até mais tarde, <span id="ticket-name">amigo</span>.</h2><p class="modal-intro">Este é um exemplo visual de confirmação. Não é um ingresso válido.</p>
-    <div class="mock-ticket"><div class="mock-qr" aria-label="QR code ilustrativo, não escaneável"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div><span>SUBSOLO BAR · AFTER 001</span><strong>R$ 25,00</strong><small>14 NOV · A PARTIR DAS 22H</small><code>DEMO-4821</code></div></div>
-    <button class="button button-outline" data-close="ticket-dialog">VOLTAR AO SITE</button>
+    <div class="success-mark">↗</div><div class="modal-kicker">MENSAGEM DE EXEMPLO · NÃO ENVIADA</div><h2>Pedido encaminhado, <span id="ticket-name">amigo</span>.</h2><p class="modal-intro">Na operação real, o WhatsApp abriria com a mensagem preenchida para a pessoa revisar e enviar.</p>
+    <div class="mock-ticket"><div class="whatsapp-mark" aria-hidden="true">W</div><div><span>PRÉVIA DO PEDIDO</span><strong id="ticket-quantity-label">1 entrada</strong><small id="ticket-message">Oi! Quero 1 entrada para o After 001 do Subsolo Bar, dia 14/11.</small><code id="ticket-message-name">Nome: amigo</code></div></div>
+    <p class="modal-disclaimer">Depois, a equipe confirmaria a disponibilidade e os detalhes da compra pelo WhatsApp. Este protótipo não envia mensagens nem cria ingressos.</p><button class="button button-outline" data-close="ticket-dialog">VOLTAR AO SITE</button>
   </dialog>
 
   <dialog id="door-dialog" class="dialog door-dialog">
     <button class="close-dialog" data-close="door-dialog" aria-label="Fechar">×</button>
-    <div class="modal-kicker">SUBSOLO · ACESSO DA EQUIPE</div><h2>Validação de ingresso</h2><p class="modal-intro">Simulação de uma conferência na entrada do evento.</p>
-    <div class="scan-frame"><span class="scan-corner tl"></span><span class="scan-corner tr"></span><div class="scan-icon">▦</div><span class="scan-corner bl"></span><span class="scan-corner br"></span></div>
-    <label for="ticket-code">Digite o código demonstrativo</label><div class="code-row"><input id="ticket-code" value="DEMO-4821" maxlength="20"><button id="validate-ticket" class="button button-primary" type="button">CONFERIR</button></div>
-    <div id="validation-result" class="validation-result" aria-live="polite">Código de exemplo: DEMO-4821</div><p class="modal-disclaimer">Não há leitura de QR nem controle real de acesso nesta demonstração.</p>
+    <div class="modal-kicker">SUBSOLO BAR · ACESSO DA EQUIPE</div><h2>Lista da portaria</h2><p class="modal-intro">Uma proposta simples para a equipe localizar as entradas confirmadas por WhatsApp e marcar quem já chegou.</p>
+    <div class="guest-list"><div class="guest-heading"><span>EXEMPLO · PEDIDOS CONFIRMADOS</span><b>1 PEDIDO</b></div><article class="guest-row"><div class="guest-avatar">M</div><div class="guest-person"><strong>Mariana Souza</strong><small>2 entradas · pedido pelo WhatsApp</small></div><span class="guest-status" id="guest-status">CONFIRMADO</span></article><button id="mark-arrived" class="button button-primary" type="button">MARCAR ENTRADA <span>→</span></button></div>
+    <div id="validation-result" class="validation-result" aria-live="polite">A equipe pode consultar a lista e dar baixa na chegada.</div><p class="modal-disclaimer">A lista acima é fictícia. A demonstração não recebe pedidos do WhatsApp nem compartilha vendas com a portaria.</p>
   </dialog>
 
   <script src="script.js"></script>
